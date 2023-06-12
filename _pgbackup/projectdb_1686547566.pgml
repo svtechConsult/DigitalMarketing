@@ -1,0 +1,23 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="#223c54"/>
+                <dmcolor key="secondary" color="#1f99b2"/>
+                <dmcolor key="info" color="#c19292"/>
+                <dmcolor key="success" color="#f38181"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#b8d8eb"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="#212529"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="Inter" text_weight="normal" text_color="$dark" headings_family="Poppins" headings_effect="shadow" headings_color="$primary"></dmdesignskill>
+            <dmdesignskill skill="headings" h1_family="Poppins" h2_family="Poppins" h3_family="Poppins" h4_family="Poppins" h5_family="Inter" h1_weight="500" h1_color="$primary" h1_effect="shadow" h2_weight="500" h2_color="$secondary" h2_effect="shadow_hard" h3_weight="300" h3_color="$warning" h3_effect="shadow" h4_weight="300" h4_color="$success" h4_effect="shadow"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0"></dmdesignskill>
+            <dmdesignskill skill="bootstrap"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="false" bs5-colors-secondary="false" bs5-colors-info="false" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true"></dmlocked>
+</project>
