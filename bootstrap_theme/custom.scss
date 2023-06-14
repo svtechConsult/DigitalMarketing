@@ -64,8 +64,11 @@ $orange: #ffc107;
 $green: #198754;
 $cyan: #0dcaf0;
 $primary: $blue;
-$success: $green;
-$info: $cyan;
+$secondary: #1f99b2;
+$info: #c19292;
+$success: #f38181;
+$warning: #ffc107;
+$danger: #b8d8eb;
 $dark: $gray-900;
 
 @import "bootstrap/mixins/banner";
@@ -148,19 +151,19 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 500 !important;
-    color: $primary !important;
+    color: $secondary !important;
     text-shadow: 0.03em 0.05em 0.05em rgba(0, 0, 0, 0.3);
 }
 h2 {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 500 !important;
-    color: $secondary !important;
+    color: $warning !important;
     text-shadow: 0.08em 0.08em 0px rgba(0,0,0,0.2);
 }
 h3 {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 300 !important;
-    color: $warning !important;
+    color: $success !important;
     text-shadow: 0.03em 0.05em 0.05em rgba(0, 0, 0, 0.3);
 }
 h4 {
@@ -172,6 +175,7 @@ h4 {
 h5 {
     font-family: 'Inter', sans-serif !important;
     font-weight: normal !important;
+    color: $danger !important;
 }body, html {
     min-height: 100vh;
 }
@@ -183,6 +187,8 @@ h5 {
 
 $green: #198754;
 $cyan: #0dcaf0;
+$primary: #223c54;
+$warning: #ffc107;
 
 .my-header {
 }
